@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+- `skills/odoo-implementation-methodology/` — navigable, page-referenced guide to Odoo's official Implementation Methodology, including phases, roles, adoption and go-live guidance, customization and data-migration decision criteria, a scenario/case router, and source-version provenance.
+
+### Changed
+- `.claude-plugin/plugin.json` and `README.md` register the new methodology skill pack.
+
 ## [1.0.13]
 
 ### Release Description
