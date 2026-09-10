@@ -89,7 +89,7 @@ npx @unclecat/agent-skills-cli init --ai all --skill skills --version odoo-19.0
 
 Supported `--ai` targets: `cursor`, `claude`, `antigravity`, `kiro`, `docs`, `all`.
 
-Other installable packs: `code-review`, `dtg-base`, `flow-diagram`, `odoo-commit`, `slide`.
+Other installable packs: `code-review`, `dtg-base`, `flow-diagram`, `odoo-commit`, `odoo-implementation-methodology`, `slide`.
 
 ### Option 3 — Claude Code plugin
 
@@ -163,6 +163,7 @@ In-depth guides written for AI consumption. Each Odoo pack includes 18 topic gui
 | **[Odoo 17.0](skills/odoo-17.0/)** | Odoo 17 development — `<tree>` views, direct-expression modifiers (no `attrs`), `group_operator=`, JSONB translations, OWL 2.8 |
 | **[Odoo 18.0](skills/odoo-18.0/)** | Odoo 18 development — `<list>` views, `aggregator=`, `<chatter/>` shortcut, ORM, security, OWL, reports, migrations, performance |
 | **[Odoo 19.0](skills/odoo-19.0/)** | Odoo 19 development — optional `_name`, `models.Constraint` / `models.Index`, current view and frontend conventions |
+| **[Odoo Implementation Methodology](skills/odoo-implementation-methodology/)** | Navigable map of Odoo's official implementation methodology — phases, roles, adoption, go-live, customization decisions, case routing, source provenance, and page-level traceability |
 | **[Odoo Commit](skills/odoo-commit/)** | Guides Odoo-style commit creation — message drafting, amend-vs-new-commit decisions, explicit staging, `git commit -F`, and local history cleanup before PRs |
 | **[Flow Diagram](skills/flow-diagram/)** | Interactive self-contained HTML+SVG flow/architecture diagrams — zoom/pan, click-to-highlight flows, traveling dots, collision checkers |
 | **[DTG Base](skills/dtg-base/)** | DTGBase utilities — date/period, timezone, batch processing, barcode, Vietnamese text, file helpers |
@@ -227,6 +228,7 @@ agent-skills/
 │   ├── odoo-17.0/             # Odoo 17 guides + api-highlights
 │   ├── odoo-18.0/             # Odoo 18 guides + api-highlights
 │   ├── odoo-19.0/             # Odoo 19 guides + api-highlights
+│   ├── odoo-implementation-methodology/ # Official methodology map + scenario router
 │   ├── odoo-commit/           # Odoo-style commit workflow and message guidance
 │   ├── flow-diagram/          # Interactive HTML+SVG flow/architecture diagrams
 │   ├── dtg-base/              # DTGBase utilities
@@ -292,7 +294,7 @@ flowchart LR
 |--------|-------|
 | Documentation | ~57,000 lines |
 | Odoo skill packs | 4 (16.0, 17.0, 18.0, 19.0) |
-| Other skill packs | 5 (DTG Base, Code Review, Odoo Commit, Flow Diagram, Slide) |
+| Other skill packs | 6 (DTG Base, Code Review, Odoo Commit, Odoo Implementation Methodology, Flow Diagram, Slide) |
 | Agents | 3 (Odoo Code Review, Odoo Code Tracer, Planner) |
 | Rules | 2 (Coding Style, Security) |
 | Current release | [1.0.13](CHANGELOG.md) |

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Odoo Implementation Methodology"
+  short_description: "Guía navegable de la metodología Odoo"
+  default_prompt: "Usa $odoo-implementation-methodology para orientar este caso según la metodología oficial de implementación de Odoo."
+
+policy:
+  allow_implicit_invocation: true
